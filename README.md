@@ -1,51 +1,72 @@
-🌀 US_Natural_Disaster Data Analysis Project
-This project focuses on analyzing and extracting insights from the US Natural Disaster dataset, applying a full data science pipeline — including data cleaning, exploratory analysis, and both supervised and unsupervised learning techniques.
+# 🌀 US_Natural_Disaster Data Analysis Project
 
-📊 Project Objectives
-Clean and preprocess raw disaster data
+This project analyzes the **US Natural Disaster dataset**, covering the full data science pipeline — from data cleaning and exploratory analysis to applying both **supervised** and **unsupervised learning** techniques, including **K-Means clustering**.
 
-Perform exploratory data analysis (EDA)
+---
 
-Apply supervised learning models for prediction (e.g., classification or regression)
+## 📌 Objectives
 
-Use unsupervised learning (e.g., K-Means Clustering) to group similar disaster events
+- Clean and preprocess raw disaster data  
+- Explore data trends and insights through EDA  
+- Apply **supervised learning** to predict disaster impact  
+- Use **unsupervised learning** to group similar disaster events  
+- Support risk assessment and disaster preparedness
 
-Identify trends and patterns to support risk assessment and disaster preparedness
+---
 
-🧹 Data Cleaning
-Removed duplicates and handled missing values
+## 🧹 Data Cleaning
 
-Standardized column names and formats
+- Removed duplicates and handled missing values  
+- Standardized formats and column names  
+- Encoded categorical data for ML models  
+- Normalized numerical fields
 
-Encoded categorical features where necessary
+---
 
-Normalized numerical values for modeling
+## 📊 Exploratory Data Analysis (EDA)
 
-🔍 Analysis & Features
-EDA using visualizations to understand disaster frequency, impact, and location-based trends
+- Identified disaster frequency and impact by region  
+- Visualized trends over time and types of disasters  
+- Engineered features to enhance predictive modeling
 
-Feature engineering from raw fields to improve model performance
+---
 
-Correlation and statistical analysis to identify important variables
+## 🤖 Machine Learning
 
-🤖 Machine Learning
-Supervised Learning
-Applied models like Logistic Regression, Decision Trees, or Random Forest for classification tasks (e.g., predicting disaster impact level)
+### ✅ Supervised Learning
+- Models: `Logistic Regression`, `Decision Tree`, `Random Forest`  
+- Goal: Predict disaster impact level or damage severity
 
-Unsupervised Learning
-Implemented K-Means Clustering to discover patterns and group disaster types or regions with similar characteristics
+### 🔍 Unsupervised Learning
+- Algorithm: `K-Means Clustering`  
+- Goal: Group disasters or regions with similar characteristics
 
-📁 Technologies Used
-Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
+---
 
-Jupyter Notebook
+## 🛠️ Technologies Used
 
-CSV dataset of US natural disasters
+- **Python**: `Pandas`, `NumPy`, `Scikit-learn`, `Matplotlib`, `Seaborn`  
+- **Jupyter Notebook**  
+- **CSV Dataset** (US Natural Disasters)
 
-📈 Results
-Identified high-risk states and frequent disaster types
+---
 
-Clustered disasters into meaningful groups using K-Means
+## 📈 Results
 
-Built predictive models to estimate disaster severity or response needs
+- Clustered states by disaster frequency and type  
+- Built accurate models to predict disaster-related outcomes  
+- Uncovered insights for better disaster preparedness
 
+---
+
+## 📁 Folder Structure (Optional)
+
+```bash
+📦US_Natural_Disaster_Project
+├── 📁 data
+│   └── us_disasters.csv
+├── 📁 notebooks
+│   └── analysis_and_modeling.ipynb
+├── 📁 visuals
+│   └── eda_charts.png
+└── README.md
